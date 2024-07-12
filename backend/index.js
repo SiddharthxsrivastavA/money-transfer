@@ -15,7 +15,7 @@ app.use(cors(
 
 app.use(express.json());
 
-mongoose.connect()
+mongoose.connect("mongodb+srv://sidpay:sidpayy@cluster0.3dk1n.mongodb.net/paytm");
 
 app.use("/api/v1", rootRouter);
 
